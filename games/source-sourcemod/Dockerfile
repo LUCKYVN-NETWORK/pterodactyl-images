@@ -25,4 +25,4 @@ WORKDIR     /home/container
 
 # Github workflow build context is ./games
 COPY        ./source-sourcemod/entrypoint.sh /entrypoint.sh
-CMD         [ "/bin/bash", "/entrypoint.sh" ]
+CMD         [ "/bin/sh", "/entrypoint.sh" ]
